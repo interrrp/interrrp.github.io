@@ -1,4 +1,17 @@
 baseURL: https://rrrtiz.tech/blog
 languageCode: en-us
-title: 😭 interrrp's totally awesome blog
+title: interrrp
 theme: papermod
+
+params:
+  homeInfoParams:
+    title: 👋 Hi, I'm interrrp
+    content: I am a full-stack web developer that loves to learn new things.
+
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/interrrp
+    - name: Twitter
+      url: https://twitter.com/interrrrp
+    - name: Email
+      url: mailto:watchyourcache@gmail.com
