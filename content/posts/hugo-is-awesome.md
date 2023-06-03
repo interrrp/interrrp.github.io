@@ -21,7 +21,9 @@ rebuild your website when you make changes to it (and it is also very fast!).
 
 Hugo also supports a wide variety of themes. You can check out the [Hugo
 Themes](https://themes.gohugo.io) website to see all of the themes that are
-available for Hugo. I am using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme for this blog, and I think it looks pretty good.
+available for Hugo. I am using the
+[PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme for this blog,
+and I think it looks pretty good.
 
 I think Hugo is a great static site generator, and I would recommend it to
 anyone who is looking for a static site generator that is fast, easy to use, and
