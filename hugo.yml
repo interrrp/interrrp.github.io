@@ -1,12 +1,12 @@
 baseURL: https://rrrtiz.tech
 languageCode: en-us
-title: interrrp
+title: int
 theme: papermod
 
 params:
   homeInfoParams:
-    title: 👋 Hi, I'm interrrp
-    content: I am a full-stack web developer that loves to learn new things.
+    title: 👋 Hi, I'm int
+    content: I'm a full-stack developer that loves to build things. All of my socials typically have the `interrrp` username, so feel free to reach out!
 
   socialIcons:
     - name: GitHub
