@@ -6,7 +6,7 @@ theme: papermod
 params:
   homeInfoParams:
     title: 👋 Hi, I'm int
-    content: I'm a full-stack developer that loves to build things. All of my socials typically have the `interrrp` username, so feel free to reach out!
+    content: I'm a full-stack developer @ studio 7 that loves to build things. All of my socials typically have the `interrrp` username, so feel free to reach out!
 
   socialIcons:
     - name: GitHub
