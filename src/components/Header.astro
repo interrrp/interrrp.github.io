@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+
+import avatar from "../images/avatar.png";
+import IconLink from "./IconLink.astro";
+---
+
+<header class="flex flex-col gap-4 items-center p-16 text-center">
+  <Image
+    src={avatar}
+    loading="eager"
+    alt="My avatar, Int the Stickman"
+    width="64"
+    class="rounded-full"
+  />
+  <h1 class="text-2xl font-bold">Hi, I'm int</h1>
+  <p class="text-neutral-400">
+    I build interesting software and write questionable articles.
+  </p>
+  <div class="flex gap-4">
+    <IconLink
+      name="github"
+      label="My GitHub"
+      href="https://github.com/interrrp"
+    />
+    <IconLink name="mail" label="My e-mail" href="mailto:i@ntrp.fun" />
+  </div>
+</header>
