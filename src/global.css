@@ -1,0 +1,7 @@
+* {
+  @apply border-white border-opacity-10;
+}
+
+a {
+  @apply hover:opacity-80 duration-100;
+}
