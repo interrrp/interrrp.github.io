@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: An Astro-nomically Awesome New Site
 description:
   Explore the history of my site, and the technologies used to build it.

@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: The Large Small Decisions
 description: Be pedantic over the seemingly small and worthless decisions.
 ---
