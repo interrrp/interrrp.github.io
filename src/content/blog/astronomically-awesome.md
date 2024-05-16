@@ -2,6 +2,7 @@
 title: An Astro-nomically Awesome New Site
 description:
   Explore the history of my site, and the technologies used to build it.
+createdAt: 2024-05-15
 ---
 
 ## Terrible pun, but what's an Astro?

@@ -1,6 +1,7 @@
 ---
 title: The Large Small Decisions
 description: Be pedantic over the seemingly small and worthless decisions.
+createdAt: 2024-05-16
 ---
 
 When writing code, I spend a concerning amount of time over seemingly small and
