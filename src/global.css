@@ -14,3 +14,7 @@ h5,
 h6 {
   @apply text-left;
 }
+
+.astro-code {
+  @apply border border-opacity-5;
+}

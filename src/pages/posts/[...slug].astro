@@ -31,7 +31,9 @@ const { Content } = await post.render();
       </a>
       <Date date={post.data.createdAt} />
     </header>
-    <main class="prose prose-invert prose-neutral text-justify min-w-full">
+    <main
+      class="prose prose-invert prose-amber prose-headings:text-ayu-fg text-ayu-fg text-justify min-w-full"
+    >
       <Content />
     </main>
   </article>
