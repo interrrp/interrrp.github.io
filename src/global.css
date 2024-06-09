@@ -1,5 +1,5 @@
 * {
-  @apply border-white border-opacity-10;
+  @apply border-white border-opacity-10 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-ayu-bg-2;
 }
 
 a {

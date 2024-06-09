@@ -6,6 +6,7 @@ export default {
       colors: {
         ayu: {
           bg: "#0b0e14",
+          "bg-2": "#6C738030",
           fg: "#cccac2",
           muted: "#8d9da5",
           muter: "#6f8390",
@@ -13,5 +14,5 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"), require("tailwind-scrollbar")],
 };
