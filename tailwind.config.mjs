@@ -7,7 +7,7 @@ export default {
         ayu: {
           bg: "#0b0e14",
           "bg-2": "#6C738030",
-          fg: "#cccac2",
+          fg: "#ded9ca",
           muted: "#8d9da5",
           muter: "#6f8390",
         },
