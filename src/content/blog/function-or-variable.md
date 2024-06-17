@@ -62,7 +62,7 @@ common counterarguments:
 1. It isn't clear whether `const` defines a function or a variable, especially
    when in large codebases.
 
-   > _"Just read the next parts, nerd"_
+   > Just read the next parts, nerd
 
    I believe that there should be a clear separation between keywords declaring
    variables and keywords declaring functions.
@@ -73,7 +73,7 @@ common counterarguments:
 
 2. Unnecessary noise (`=`, `=>`, `;`)
 
-   > _"Ignore them then?"_
+   > Ignore them then?
 
    Why would I train my eyes to ignore them, when you can use a better method to
    declare functions? It makes the code a tiny bit harder to read.
