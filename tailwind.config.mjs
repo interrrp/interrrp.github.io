@@ -6,7 +6,8 @@ export default {
       colors: {
         ayu: {
           bg: "#0b0e14",
-          "bg-2": "#6C738030",
+          "bg-2": "#0d1017",
+          "bg-3": "#6C738030",
           fg: "#ded9ca",
           muted: "#8d9da5",
           muter: "#6f8390",

@@ -1,5 +1,5 @@
 * {
-  @apply border-white border-opacity-10 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-ayu-bg-2;
+  @apply border-white border-opacity-10 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-ayu-bg-3;
 }
 
 a {
@@ -16,5 +16,5 @@ h6 {
 }
 
 .astro-code {
-  @apply border border-opacity-5;
+  @apply border border-opacity-5 bg-ayu-bg-2 p-4 !important;
 }
