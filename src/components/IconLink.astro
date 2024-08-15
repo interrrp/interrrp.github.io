@@ -9,4 +9,9 @@ interface Props {
 const { name, label, href } = Astro.props;
 ---
 
-<a href={href} aria-label={label}><Icon name={name} size={24} /></a>
+<a
+  href={href}
+  aria-label={label}
+  class="text-xs flex gap-1 border rounded-full px-2 py-1"
+  ><Icon name={name} size={16} /> {label}</a
+>
