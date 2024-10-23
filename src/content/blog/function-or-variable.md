@@ -14,10 +14,8 @@ const accomplish
 function accomplish
 ```
 
-"But int, you can't possibly be serious! The former obviously declares a
-variable because it says `const`; this is basic JavaScript!"
-
-Let me reveal the rest:
+Obviously, you would think the former with `const` declares a variable, right?
+Here's the rest:
 
 ```js
 const accomplish = (task) => {
@@ -29,12 +27,12 @@ function accomplish(task) {
 }
 ```
 
-"That's not fair, `const` was bait! `const` is generally used for variables-"
+Not cool, man.
 
-## You're right
+## Readability
 
-You're right. `const` _is_ for variables, yet some people insist on using it for
-everything. In my opinion, its usage is fine for callbacks and such, e.g.:
+`const` is for variables, yet some people insist on using it for functions. In
+my opinion, its usage is fine for callbacks and such, e.g.:
 
 ```tsx
 export default function ClickyButton() {
@@ -56,13 +54,7 @@ const ClickyButton = () => {
 };
 ```
 
-Here's the list of things that I don't like about it, and my response to their
-common counterarguments:
-
-1. It isn't clear whether `const` defines a function or a variable, especially
-   when in large codebases.
-
-> Just read the next parts, nerd
+### Separation of Concerns
 
 I believe that there should be a clear separation between keywords declaring
 variables and keywords declaring functions.
@@ -71,18 +63,30 @@ For people that regularly work with other languages like me, that is an
 important point as almost every other language seems to draw the line quite well
 (e.g. `let`/`fn` in Rust).
 
-2. Unnecessary noise (`=`, `=>`, `;`)
+### Noise
 
-> Ignore them then?
+There is a lot of noise (`= () => {` compared to just `{`). Why should I train
+my eyes to ignore them, when you can use a better method to declare functions?
+It makes the code a lot harder to read. This point is especially important in
+fairly large files with lots of functions.
 
-Why would I train my eyes to ignore them, when you can use a better method to
-declare functions? It makes the code a tiny bit harder to read.
+## Practicality
 
-3. Names not showing up in stack traces
+### Context Binding
 
-_(Okay, maybe not this one - Node figured this out already)_
+Arrow functions don't have their own `this`, `arguments`, or `super`. In cases
+like object methods and event listeners, this can have unintended side effects
+when relying on `this` binding from the surrounding context.
+
+### Inflexibility
+
+Arrow functions are immutable in terms of their lexical `this`, meaning that
+they can't be re-bound to different contexts.
+
+Using traditional `function` expressions provide more flexibility such as when
+you need dynamic `this` behavior for certain patterns like mixins or decorators.
 
 ## Conclusion
 
-In conclusion, you should probably just use `function` to declare your
-module-level functions. It's easier to read.
+You should just use `function` to declare your module-level functions. Don't use
+ES6 features just for the sake of using them.
